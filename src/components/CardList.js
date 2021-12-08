@@ -1,12 +1,12 @@
 import React from'react';
 import Card from './Card';
 
-const cardList = ({ robots }) => {
+const CardList = ({ robots }) => {
     
     return(
         <div>
             {
-          robots.map((user, i) => {
+           robots.map((user, i) => {
             return(
              <Card 
              key={i}
@@ -20,4 +20,4 @@ const cardList = ({ robots }) => {
         </div>
     );
 }
-export default cardList; 
+export default CardList; 
